@@ -11,3 +11,7 @@ class Cliente:
     #método set
     def set_nome(self, nome):
         self._nome = nome
+
+    @property
+    def nome(self):
+        return self._nome
